@@ -1,0 +1,12 @@
+[project]
+name = "test-agent-it"
+version = "0.1.0"
+description = "Minimal Gradio chatbot using the OpenAI Agents SDK with an OpenAI-compatible Ollama server."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "gradio",
+    "openai",
+    "openai-agents",
+    "python-dotenv",
+]
